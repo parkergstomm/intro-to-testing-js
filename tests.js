@@ -16,7 +16,7 @@ describe('helloWorld', function() {
 
 // Unit tests for sayHello function
 describe("sayHello", function (){
-    it("should be a defined function", function() {
+    it("should be a defined a function", function() {
         expect(typeof sayHello).toBe("function");
     });
     it("should return a string when called", function() {
@@ -30,6 +30,14 @@ describe("sayHello", function (){
     });
     it('should return a string "Hello, Pat!" when executed', function (){
         expect(sayHello("Pat")).toBe("Hello, Pat!");
+    });
+});
+
+//Unit test for isFive Function:
+
+describe("isFive", function(){
+    it("should be defined as a function.", function (){
+        expect(typeof isFive).toBe("function");
     });
 
 })
